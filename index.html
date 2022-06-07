@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Conversor de Criptomonedas | CriptoNFTHoy</title>
+</head>
+<body>
+    <div class="encabezado">
+        <header>
+            <img src="./img/logo-cnh.jpeg" alt="">
+        </header>
+        <div>
+            <h1>Bienvenidos a CriptoNFTHoy</h1>
+        </div>
+    </div>
+
+    <main>
+        <div class="textosPrincipales">
+            <h2>Calculadora convertidora de criptomonedas</h2>
+            <p>De Dólares (USD) a las Principales Criptomonedas</p>
+        </div>
+        <form action="" class="formulario">
+            <label for="cantidadDolar">Ingrese la cantidad de dólares que desea convertir</label>
+            <input type="number" name="cantidadDolar" id="cantidadDolar">
+            <label for="elegirCripto">Seleccionar una criptomoneda para convertir los dólares:</label>
+            <div class="criptos">
+                <input type="radio" name="cambio" id="uno">Bitcoin
+                <input type="radio" name="cambio" id="dos">Ethereum
+                <input type="radio" name="cambio" id="tres">BNB
+            </div>
+            <input type="button" value="CONVERTIR" id="calcular" onclick="convertir();">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footerUno">
+            <img src="./img/logo-cnh.jpeg" alt="">
+        </div>
+        <div class="footerDos">
+            <p >Copyright &#169 - CriptoNFTHoy</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
